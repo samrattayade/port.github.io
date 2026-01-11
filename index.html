@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPortfolio | 10 Years of Web Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><i class="fas fa-code"></i>Samrat <span>Portfolio</span></a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#stats">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>5 Years of Web Development Excellence</h1>
+                <p>Discover a decade of pixel-perfect websites, innovative solutions, and cutting-edge web applications. Explore 10 handpicked projects that showcase my journey as a professional web developer.</p>
+                <a href="#projects" class="cta-button">Explore Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>Each project represents a milestone in my 10-year journey, showcasing evolving technologies, design trends, and problem-solving skills.</p>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Projects 1-->
+
+<div class="project-card">
+  <div class="project-image">
+    <img src="images/project1.jpg" alt="Project One">
+  </div>
+
+  <div class="project-content">
+    <h3>Project One</h3>
+    <p>Modern responsive website</p>
+    <a href="https://www.samrattayade.com/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+
+<div class="project-card">
+  <div class="project-image">
+    <img src="images/project2.jpg" alt="Project Two">
+  </div>
+
+  <div class="project-content">
+    <h3>Project One</h3>
+    <p>Modern responsive website</p>
+    <a href="https://a.samrattayade.com/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-image">
+    <img src="images/project3.jpg" alt="Project Three">
+  </div>
+
+  <div class="project-content">
+    <h3>Project One</h3>
+    <p>Modern responsive website</p>
+    <a href="https://sai.samrattayade.com/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-image">
+    <img src="images/project4.jpg" alt="Project Four">
+  </div>
+
+  <div class="project-content">
+    <h3>Project One</h3>
+    <p>Modern responsive website</p>
+    <a href="https://sai.samrattayade.com/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">05+</div>
+                    <div class="stat-text">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-text">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-text">Technologies Used</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Build Something Amazing</h2>
+                <p>With a decade of experience, I can help bring your web project to life. Whether it's a simple website or a complex web application, I have the skills to make it happen.</p>
+                <a href="mailto:mr.samrattayadet@gmail.com" class="contact-button">Get In Touch <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Dev<span>Portfolio</span></a>
+                <p class="footer-text">A showcase of 5 years in web development. Each project tells a story of challenges overcome, technologies mastered, and clients delighted.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2026 SamratPortfolio. All rights reserved. | 05 Years of Web Development Excellence
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-close" id="modalClose"><i class="fas fa-times"></i></div>
+            <div class="modal-header">
+                <h3 id="modalTitle">Project Title</h3>
+                <p id="modalSubtitle">Project Category</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project Image">
+                </div>
+                <p class="modal-desc" id="modalDesc">Project description will appear here.</p>
+                <div class="modal-tech" id="modalTech">
+                    <!-- Tech tags will be inserted here -->
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="live-link" id="modalLiveLink" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="#" class="code-link" id="modalCodeLink" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
